@@ -1,11 +1,19 @@
 {
   "name": "@levnekrasov/ajs",
-  "version": "1.0.0",
-  "description": "https://github.com/LevNekrasov/ajs/tree/main",
+  "version": "1.0.2",
+  "description": "",
   "main": "dist/index.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LevNekrasov/ajs.git"
+  },
+"bugs": {
+    "url": "https://github.com/LevNekrasov/ajs/issues"
+ },
+ "homepage": "https://github.com/LevNekrasov/ajs#readme",
   "scripts": {
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
